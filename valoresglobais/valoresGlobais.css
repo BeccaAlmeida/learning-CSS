@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.globais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000aa;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+div {
+  display: inherit;
+  border: inherit;
+  border-radius: inherit;
+  padding: inherit;
+  margin: 10px;
+}
+
+div:hover {
+    background-color: #071ee7aa;
+}

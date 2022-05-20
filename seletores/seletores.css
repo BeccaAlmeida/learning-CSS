@@ -1,0 +1,25 @@
+* {
+    background: black;
+}
+
+body {
+    color: white;
+}
+
+.classSelector {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#idSelector {
+    background-color: brown;
+}
+
+[type="Text"] {
+    background-color: aqua;
+    width: 100%;
+}
+
+button:hover {
+    margin: 20px;
+    background: white;
+}

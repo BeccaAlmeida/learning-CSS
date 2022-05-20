@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="combinadorSeletor.css">
+    <title>Combinadores de Seletores</title>
+</head>
+
+<body>
+    <div>
+        <h1>Combinador Decendente</h1>
+        <form>
+            <label for="decendente" class="form">
+                <pre>form </pre>
+            </label>
+            <label for="decendente" class="input">
+                <pre>input </pre>
+            </label>
+            <input type="text">
+        </form>
+    </div>
+
+    <div>
+        <h1>Combinador filho direto</h1>
+        <form>
+            <input type="text">
+            <label for="decendente" class="form">
+                <pre>form > </pre>
+            </label>
+            <label for="decendente" class="input">
+                <pre>input </pre>
+            </label>
+        </form>
+    </div>
+
+    <div>
+        <h1>Combinador irmão adjacente</h1>
+        <form>
+            <label for="decendente" class="form">
+                <pre>form + </pre>
+            </label>
+            <label for="decendente" class="input">
+                <pre>div </pre>
+            </label>
+        </form>
+        <div class="adjacente">Adjacente</div>
+    </div>
+
+    <div class="paiGeral">
+        <h1>Combinador irmão geral</h1>
+        <form>
+            <label for="decendente" class="form">
+                <pre>form ~ </pre>
+            </label>
+            <label for="decendente" class="input">
+                <pre>div </pre>
+            </label>
+        </form>
+        <div class="adjacente">Geral</div>
+    </div>
+</body>
+
+</html>

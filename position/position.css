@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: crimson;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.valuesPosition {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+span:hover {
+    color: #ffffffaa;
+    cursor: pointer;
+}

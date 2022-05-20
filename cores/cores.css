@@ -1,0 +1,26 @@
+h2:hover {
+    background-color: red;
+}
+
+h3:hover {
+    background-color: #0000ff;
+}
+
+h4:hover {
+    background-color: rgb(138, 43, 226);
+}
+
+h5:hover {
+    background-color: hsl(180, 100%, 50%);
+}
+
+h6.hexadecimal {
+    background-color: #0000ffaa;
+}
+h6.rgb {
+    background-color: rgb(138, 43, 226, 0.2);
+}
+
+h6.hsl {
+    background-color: hsl(180, 100%, 50%, 0.2);
+}
